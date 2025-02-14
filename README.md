@@ -18,9 +18,3 @@ The model achieves high accuracy on the validation dataset and is capable of cla
 
 ## Usage
 To run this project, you need to install the **TensorFlow** and **Keras** libraries. The project code is available in a Colab notebook for easy execution. 
-
-### Installation
-1. Clone the repository.
-   ```bash
-   git clone https://github.com/your-username/flower-classification.git
-
