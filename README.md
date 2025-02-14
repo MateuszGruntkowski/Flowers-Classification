@@ -1,20 +1,26 @@
-# Flower Image Classification
+# Image Classification with CNNs: Flower Classification
 
-This project demonstrates image classification using deep learning, specifically Convolutional Neural Networks (CNNs). The goal is to build a model that can classify images of flowers into five different categories: daisy, dandelion, roses, sunflowers, and tulips.
+This project demonstrates image classification using deep learning, specifically Convolutional Neural Networks (CNNs). The goal of the project is to build a model that can classify images of flowers into five distinct categories: **Daisy, Dandelion, Roses, Sunflowers, and Tulips**.
 
 ## Dataset
-
-The project utilizes a publicly available dataset of about 3,700 photos of flowers, categorized into five sub-directories, one per class. The dataset can be downloaded from TensorFlow Datasets.
+The project uses a publicly available dataset containing approximately 3,700 flower images categorized into five sub-directories, one per class. The dataset can be easily downloaded from [TensorFlow Datasets](https://www.tensorflow.org/datasets).
 
 ## Model
+The model is built using the Keras library and consists of:
+- **Convolutional layers** to extract features from images.
+- **Pooling layers** to reduce spatial dimensions and retain important information.
+- **Dense output layer** for multi-class classification.
 
-The model is built using the Keras library and consists of convolutional layers, pooling layers, and a dense output layer. The model is trained using a training dataset and validated using a validation dataset.
+The model is trained on a training dataset and validated on a validation dataset to evaluate its performance.
 
 ## Results
-
-The model achieves high accuracy on the validation dataset. It is also able to classify new images of flowers with reasonable accuracy.
+The model achieves high accuracy on the validation dataset and is capable of classifying new flower images with reasonable accuracy.
 
 ## Usage
+To run this project, you need to install the **TensorFlow** and **Keras** libraries. The project code is available in a Colab notebook for easy execution. 
 
-To run the project, you will need to install the TensorFlow and Keras libraries. Then, you can run the Colab notebook that contains the project code.
+### Installation
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/flower-classification.git
 
